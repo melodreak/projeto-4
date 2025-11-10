@@ -4,8 +4,10 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "watch": "gulp watch",
+    "build": "gulp styles",
+    "dev" : "gulp",
     "start": "gulp",
+    "watch": "gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
