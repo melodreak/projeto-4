@@ -1,0 +1,51 @@
+body {
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navbar__links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar__links li {
+    cursor: pointer;
+}
+
+
+.gallery {
+    &__grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    img {
+        width: 200px;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+}
+
+.follow-us {
+    &__social-links {
+        height: 20px;
+    }
+}
